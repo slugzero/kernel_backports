@@ -1,0 +1,8 @@
+# from https://backports.wiki.kernel.org/index.php/Documentation#Cross_compiling
+
+CROSS_COMPILE="/PATH/TO/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-"
+ARCH=arm
+KLIB_BUILD=/PATH/TO/out/target/product/mb526/obj/KERNEL_OBJ
+
+make
+
